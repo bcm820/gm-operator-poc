@@ -1,4 +1,4 @@
-# Grey Matter Operator
+# Grey Matter Operator (Proof of Concept)
 
 Grey Matter Operator is a Kubernetes operator that watches for greymatter.io/v1.Mesh CR (Custom Resource) objects in a Kubernetes cluster and installs the core Grey Matter services into the same namespace where the Mesh CR exists. Grey Matter Operator also spawns a process that will call the Control API to configure routing for each installed core service.
 
